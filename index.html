@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priya Yadav | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:#fff;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+header img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    border:5px solid #58a6ff;
+    object-fit:cover;
+}
+
+header h1{
+    margin-top:25px;
+    font-size:45px;
+}
+
+header h3{
+    color:#58a6ff;
+    margin:15px 0;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.buttons a{
+    display:inline-block;
+    margin:10px;
+    text-decoration:none;
+    color:white;
+    background:#238636;
+    padding:12px 25px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.buttons a:hover{
+    background:#2ea043;
+}
+
+section{
+    margin-top:60px;
+}
+
+.section-title{
+    text-align:center;
+    color:#58a6ff;
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+.about{
+    text-align:center;
+    line-height:2;
+    font-size:18px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#161b22;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.skill:hover{
+    transform:translateY(-8px);
+    background:#21262d;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#161b22;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+
+.stats{
+    text-align:center;
+}
+
+.stats img{
+    width:48%;
+    margin:10px;
+}
+
+footer{
+    text-align:center;
+    padding:50px;
+    margin-top:70px;
+    color:#8b949e;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:32px;
+}
+
+.stats img{
+width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<img src="profile.png" alt="Priya Yadav">
+
+<h1>Hi 👋 I'm Priya Yadav</h1>
+
+<h3>Aspiring Software Developer | Java Developer | Full Stack Web Developer</h3>
+
+<div class="buttons">
+
+<a href="https://github.com/Priyaydv11">GitHub</a>
+
+<a href="https://linkedin.com/in/your-linkedin">LinkedIn</a>
+
+<a href="mailto:your-email@example.com">Email</a>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<p>🎓 B.Tech Computer Science Student</p>
+
+<p>💻 Passionate about Software Development</p>
+
+<p>🌱 Currently learning MERN Stack & Advanced DSA</p>
+
+<p>🚀 Interested in Full Stack Development and Java</p>
+
+<p>💡 Love building projects that solve real-world problems.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Tech Stack</h2>
+
+<div class="skills">
+
+<div class="skill">
+<h3>Java</h3>
+</div>
+
+<div class="skill">
+<h3>C</h3>
+</div>
+
+<div class="skill">
+<h3>HTML5</h3>
+</div>
+
+<div class="skill">
+<h3>CSS3</h3>
+</div>
+
+<div class="skill">
+<h3>JavaScript</h3>
+</div>
+
+<div class="skill">
+<h3>SQL</h3>
+</div>
+
+<div class="skill">
+<h3>Git</h3>
+</div>
+
+<div class="skill">
+<h3>GitHub</h3>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>Blood Bank Management System</h3>
+
+<p>
+Developed a responsive web application for blood donor and receiver management with secure authentication.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Shopping Website</h3>
+
+<p>
+Created an interactive shopping website with a responsive design and user-friendly interface.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Library Management System</h3>
+
+<p>
+Built a Java desktop application using JDBC and MySQL for efficient library operations.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<h2 class="section-title">GitHub Stats</h2>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Priyaydv11&show_icons=true&theme=tokyonight">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyaydv11&layout=compact&theme=tokyonight">
+
+</section>
+
+<footer>
+
+<h3>Let's Connect!</h3>
+
+<p>Email: your-email@example.com</p>
+
+<p>GitHub: github.com/Priyaydv11</p>
+
+<p>© 2026 Priya Yadav</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
